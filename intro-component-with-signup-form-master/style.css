@@ -17,8 +17,10 @@ body{
     padding: 1rem;
 }
 .Code{
-    border: 2PX solid rebeccapurple;
     text-align: center;
+}
+.Code p{
+margin-block: 1rem 2.5rem;
 }
 
 h1{
@@ -27,24 +29,66 @@ font-weight: 700;
 }
 p{
 font-weight: 400;
+
 }
 .Discount-CTA{
     border-radius:0.5rem; 
     background-color:hsl(248, 32%, 49%);
      text-align: center;
      padding: 1rem;
+     margin-bottom: 1rem;
+
 }
 .Discount-CTA span{
-   font-weight: 100;
+   font-weight: 200;
     
 
 }
+form{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+input{
+    padding: 1rem 1.75rem;
+    width: 100%;
+    font-size: .75rem;
+    font-weight:500 ;
+    color:hsl(249, 10%, 26%)  ;
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+    border: 1px solid hsl(246, 25%, 77%) ;
+}
 
+input::placeholder{
+    font-size: .75rem;
+    font-weight: 700;
+}
 
+button{
+   border: transparent; 
+   padding: 1rem;
+   text-align: center;
+   background-color: hsl(154, 59%, 51%);
+   color: #ffffff;
+   text-transform: uppercase;
+   width: 100%;
+   font-weight: 500;
+   border-radius: .25rem;
+   margin-bottom: .5rem;
 
-
-
-
+}
+form p{
+ font-size: .75rem;   
+ color:hsl(246, 25%, 77%) ;
+ text-align: center;
+}
+ 
+form span{
+    color: hsl(0, 100%, 74%) ;
+    font-weight: 600;
+    
+}
 
 
 
